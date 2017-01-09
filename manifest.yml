@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jrd-nodejs-cloudant-db
+  host: jrd-nodejs-cloudant-db
+  disk_quota: 1024M
+  services:
+  - jrd-nodejs-cloudant-db-cloudantNoSQLDB
